@@ -6,7 +6,7 @@ from email import encoders
 
 def send(filename):
     from_add = 'vsupriya3012@gmail.com'
-    to_add = 'varmasupriya30@gmail.com'
+    to_add = input("Enter your e-mail address : ")
     subject = 'Finance Stock Report'
 
     msg = MIMEMultipart()
